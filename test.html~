@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+.container { position: relative; width: 100px; height: 100px; float: left; margin-left: 10px; }
+.checkbox { position: absolute; bottom: 0px; right: 0px; }
+.arrow {width: 40px;}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <img class="arrow" src="arrow.png" /> 
+    <input type="checkbox" class="checkbox" id="check1" />
+</div>
+<div class="container">
+    <img class="arrow" src="arrow_rechts.png" />
+    <input type="checkbox"  class="checkbox" id="check2" />
+</div>
+</body>
+</html>
